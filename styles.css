@@ -160,6 +160,13 @@ button:hover {
   background-color: #fff; /* White for left messages */
 }
 
+.message.right .system-generated {
+  padding: 8px 12px;
+  border-radius: 5px;
+  max-width: 70%;
+  background-color: #d3e9fd; /* Light blue for right messages */
+}
+
 .message.right .message-content {
   background-color: #d9fdd3; /* Light green for right messages */
 }
